@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+/* Estilo del contenedor de la línea de tiempo y el historial */
+.container {
+    background-image: url('paquetes.jpg'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    padding: 30px; /* Ajusta el padding si es necesario */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    margin: 20px;
+}
+
+.update-section, .logs-section {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.logs {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.log-entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.log-entry span {
+    display: block;
+    font-size: 14px;
+}
+
+
+.private-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #007BFF;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.private-link:hover {
+    background-color: #0056b3;
+}
