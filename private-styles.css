@@ -5,14 +5,6 @@ body {
     background-color: #f9f9f9;
     text-align: center;
 }
-/* Estilo del contenedor de la línea de tiempo y el historial */
-.container {
-    background-image: url('paquetes.jpg'); /* Ruta de la imagen */
-    background-size: cover;
-    background-position: center;
-    padding: 30px; /* Ajusta el padding si es necesario */
-    border-radius: 10px; /* Bordes redondeados opcionales */
-}
 
 header {
     background-color: #007BFF;
